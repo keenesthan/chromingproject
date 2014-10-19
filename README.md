@@ -61,3 +61,24 @@ Now enter the Python interpreter and import this module with the following comma
  
 </code>
 >>>>>> import fibo
+
+<hr>
+
+
+Executing modules as scripts
+ 
+ == When you run a Python module with ==
+ 
+<code>
+python fibo.py <arguments>
+ </code>
+ 
+ 
+the code in the module will be executed, just as if you imported it, but with the __name__ set to "__main__".
+That means that by adding this code at the end of your module:
+ 
+<code>
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
+    </code>
