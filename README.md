@@ -82,3 +82,15 @@ if __name__ == "__main__":
     import sys
     fib(int(sys.argv[1]))
     </code>
+
+
+ == __main__ — Top-level script environment ==
+ 
+This module represents the (otherwise anonymous) scope in which the interpreter’s main program executes — commands read either from standard input, from a script file, or from an interactive prompt.
+ 
+<code>
+if __name__ == "__main__":
+    main()
+</code>
+
+== The Module Search Path ==
