@@ -18,6 +18,29 @@
         <h1>Chromingproject</h1>
         <h2>server,source,language,html</h2>
 
+
+  <pre style="margin-top: 20px;"><code style="font-size: 90%;">// Load some data 
+
+
+var dataset = recline.Model.Dataset({ 
+  records: [ 
+  { value: 1, date: '2012-08-07' }, 
+    { value: 5, b: '2013-09-07' }   ] 
+// Load CSV data instead 
+// (And Recline has support for many more data source types) 
+ // url: 'my-local-csv-file.csv', 
+// backend: 'csv' 
+}); 
+
+// get an element from your HTML for the viewer 
+var $el = $('#data-viewer'); 
+var allInOneDataViewer = new recline.View.MultiView({ 
+ model: dataset, 
+el: $el 
+}); 
+// Your new Data Viewer will be live! 
+</code></pre> 
+
         <section id="downloads">
           <a href="https://github.com/keenesthan/chromingproject/zipball/master" class="btn">Download as .zip</a>
           <a href="https://github.com/keenesthan/chromingproject/tarball/master" class="btn">Download as .tar.gz</a>
