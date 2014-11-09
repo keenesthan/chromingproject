@@ -2,12 +2,12 @@ chromingproject
 ===============
 tests writting in pu language
 
-    ```
+<code language="ruby">    
     #!/usr/bin/    Rake install
     $ gem install rubygems-update  # again, might need to be admin/root
     $ update_rubygems              # ... here too
-
-    ```
+</code>
+    
 
     
     ==principes du rb==
