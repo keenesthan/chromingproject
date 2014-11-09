@@ -3,7 +3,7 @@ chromingproject
 tests writting in pu language
 
     ```
-    #!../~/env Rake
+    #!/usr/bin/    Rake install
     $ gem install rubygems-update  # again, might need to be admin/root
     $ update_rubygems              # ... here too
 
