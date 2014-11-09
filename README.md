@@ -1,12 +1,12 @@
 chromingproject
 ===============
 tests writting in pu language
-    {{{
+
     ```
     #!../~/test.rb
     import rubygem
     ```
-    }}}
+
     
     ==principes du rb==
     
