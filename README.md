@@ -3,6 +3,12 @@ chromingproject
 tests writting in pu language
     {{{import rubygem
     }}}
+    
+    ==principes du rb==
+    
+    the soft his test.rb and test.rb the runner 
+    
+    
 
 
 <a href="https://basecamp.com/1234/projects/5678">basecamp.com</a>
