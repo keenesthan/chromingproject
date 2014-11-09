@@ -3,8 +3,10 @@ chromingproject
 tests writting in pu language
 
     ```
-    #!../~/test.rb
-    import rubygem
+    #!../~/env Rake
+    $ gem install rubygems-update  # again, might need to be admin/root
+    $ update_rubygems              # ... here too
+
     ```
 
     
