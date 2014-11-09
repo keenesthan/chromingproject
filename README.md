@@ -1,12 +1,16 @@
 chromingproject
 ===============
 tests writting in pu language
-    {{{import rubygem
+    {{{
+    #!../~/test.rb
+    import rubygem
     }}}
     
     ==principes du rb==
     
     the soft his test.rb and test.rb the runner 
+    
+    *  http://rubylearning.com/satishtalim/including_other_files_in_ruby.html
     
     
 
