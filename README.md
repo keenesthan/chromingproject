@@ -21,11 +21,13 @@ keenesthan projet :
 		PageName
 
 platform-samples :
+
 	URI : https://vulcain.github.io/keenesthan/removeindex.html
 
 
 setting :
 	profil : keenesthan
+	
 	URI : http://keenesthan.github.io
 	email : pierfort123@gmail.com
 
