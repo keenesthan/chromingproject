@@ -22,7 +22,9 @@ keenesthan projet :
 
 platform-samples :
 
-	URI : https://vulcain.github.io/keenesthan/removeindex.html
+	URI : https://vulcain.github.io/platform-samples/index.erb
+	
+	wiew
 
 
 setting :
